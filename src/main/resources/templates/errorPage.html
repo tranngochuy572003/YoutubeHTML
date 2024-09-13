@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var time= 5 ;
+
+       var id= setInterval(
+            function(){
+                if(time===0){
+                    clearInterval(id);
+                    setTimeout(function (){window.location.assign('bai1.html')},1000)
+                }
+                document.getElementsByClassName("back")[0].innerHTML="Back for "+time+"s"
+                time-- ;
+            }, 1000
+        )
+
+
+    </script>
+</head>
+<body>
+<img src="/image/img.png" style="width: 500px; height: 500px "/>
+<p class="back"></p>
+</body>
+</html>

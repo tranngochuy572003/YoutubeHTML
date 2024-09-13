@@ -1,0 +1,17 @@
+.top_register{
+    background-color: grey;
+    height: 50px;
+
+}
+.form_register{
+    width: 500px;
+    height: 500px;
+    border: solid 2px;
+    margin:20px 500px;
+}
+
+.content_register{
+    padding :50px;
+    display: flex;
+    flex-direction: column;
+}
